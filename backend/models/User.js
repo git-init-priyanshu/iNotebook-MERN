@@ -21,4 +21,5 @@ const UserSchema = new Schema({
   },
 });
 
+mongoose.set("bufferCommands", false);
 module.exports = mongoose.model("user", UserSchema);

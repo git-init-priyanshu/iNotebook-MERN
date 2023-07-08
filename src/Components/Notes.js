@@ -43,7 +43,7 @@ export default function Notes() {
   };
 
   return (
-    <div className="container row div-center w-95 my-3">
+    <div className="row div-center w-95">
       <AddNote />
 
       {/* This button is not being displayed but if has been set as a reference(useRef()) */}
